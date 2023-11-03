@@ -1,0 +1,22 @@
+.banner-container {
+    height: 6em;
+    width: 100%;
+    position: relative;
+
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 16px;
+    }
+
+    h2 {
+        color: white;
+        text-shadow: 1px 1px 0px black;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

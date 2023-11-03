@@ -1,0 +1,17 @@
+.header-container {
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+
+    a {
+        padding-left: 2em;
+    }
+}
+
+.logo {
+    height: 3em;
+
+    img {
+        height: 100%;
+    }
+}
